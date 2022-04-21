@@ -1,5 +1,5 @@
 import React from "react";
-import { Arte, Circulo, ContenedorPrincipal, CuerpoContenedor, Descripcion } from "./CuerpoElements";
+import { Arte, ContenedorPrincipal, CuerpoContenedor, Descripcion } from "./CuerpoElements";
 import roma from '../Cuerpo/roma2.svg';
 
 export default function Cuerpo() {
@@ -10,7 +10,7 @@ export default function Cuerpo() {
                 <Descripcion>
                     <h1>Hola, soy Giancarlo.</h1>
                     <p>Soy un desarrollador web apasionado por el Frontend establecido en Perú.</p>
-                    <a className="works" href="#">Mira mis trabajos →</a>
+                    <a className="works" href="https://github.com/GiancarloAcosta96">Mira mis trabajos →</a>
                     <ul>
                         <li><a href="https://www.linkedin.com/in/gianchungaacosta/">LinkedIn</a></li>
                         <li>•</li>
