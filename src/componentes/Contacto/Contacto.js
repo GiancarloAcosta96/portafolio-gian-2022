@@ -12,11 +12,11 @@ export default function Contacto() {
                 </ContenedorTexto>
                 
                     <RedesLi>
-                        <a className="facebook" href="#"><FaFacebookF/></a>
-                        <a className="instagram" href="#"><FaInstagram/></a> 
-                        <a className="twitter" href="#"><FaTwitter/></a> 
-                        <a className="linkedin" href="#"><FaLinkedinIn/></a> 
-                        <a className="github"href="#"><FaGithub/></a>
+                        <a className="facebook" href="https://www.facebook.com/gianacosta221196"><FaFacebookF/></a>
+                        <a className="instagram" href="https://www.instagram.com/angus.young96/"><FaInstagram/></a> 
+                        <a className="twitter" href="https://twitter.com/Aerosmith2211"><FaTwitter/></a> 
+                        <a className="linkedin" href="https://www.linkedin.com/in/gianchungaacosta/"><FaLinkedinIn/></a> 
+                        <a className="github"href="https://github.com/GiancarloAcosta96"><FaGithub/></a>
                     </RedesLi>
                 
             </Contenedor>
