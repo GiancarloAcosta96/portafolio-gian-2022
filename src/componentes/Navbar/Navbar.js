@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import { Container, IconoHamburguesa, LogoContainer, Menu, MenuItem, MenuItemLink, Wrapper } from "./NavBarElements";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons";
-import logo from "../Navbar/logoG.svg";
 
 export default function Navbar() {
 
