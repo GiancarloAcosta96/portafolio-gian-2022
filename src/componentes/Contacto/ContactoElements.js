@@ -6,6 +6,9 @@ export const ContenedorContacto = styled.div`
     display: grid;
     padding: 5em;
     background-color: #f6f6f6;
+    @media (max-width:800px){
+        padding: 1em;
+    }
 `
 
 export const Contenedor = styled.div`
@@ -15,7 +18,7 @@ export const Contenedor = styled.div`
     h2 {
         font-family: 'Roboto';
         font-size: 3.5em;
-        @media(max-width:800px){
+        @media(max-width:1000px){
             font-size: 2em;
             text-align: center;
         }
@@ -26,17 +29,26 @@ export const ContenedorTexto = styled.div`
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 1.5em;
+    @media(max-width:1000px){
+        text-align: center;
+    }
 `
 
 export const RedesLi = styled.ul`
     margin-top: 4em;
     display: flex;
     justify-content: space-between;
+    @media(max-width:800px){
+            margin-top: 3em;
+        }
     a {
         display: flex;
         align-items: center;
-        font-size: 4em;
+        font-size: 3em;
         color: #000;
+        @media(max-width:1000px){
+            font-size: 2em;
+        }
     }
     .facebook {
         &:hover {

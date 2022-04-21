@@ -25,27 +25,27 @@ export default function Navbar() {
 
                 <Menu open = {mostrarMenu}>
                     <MenuItem>
-                    <MenuItemLink onClick={() => setMostrarMenu(!mostrarMenu)}>
+                    <MenuItemLink link to="/" onClick={() => setMostrarMenu(!mostrarMenu)}>
                         Inicio
                     </MenuItemLink>
                     </MenuItem>
                     <MenuItem>
-                    <MenuItemLink onClick={() => setMostrarMenu(!mostrarMenu)}>
+                    <MenuItemLink link to="/SobreMi" onClick={() => setMostrarMenu(!mostrarMenu)}>
                         Sobre mi
                     </MenuItemLink>
                     </MenuItem>
                     <MenuItem>
-                    <MenuItemLink onClick={() => setMostrarMenu(!mostrarMenu)}>
+                    <MenuItemLink link to="/Servicios" onClick={() => setMostrarMenu(!mostrarMenu)}>
                         Servicios
                     </MenuItemLink>
                     </MenuItem>
                     <MenuItem>
-                    <MenuItemLink onClick={() => setMostrarMenu(!mostrarMenu)}>
+                    <MenuItemLink link to="/Portafolio" onClick={() => setMostrarMenu(!mostrarMenu)}>
                         Portafolio
                     </MenuItemLink>
                     </MenuItem>
                     <MenuItem>
-                    <MenuItemLink className="btnContacto" onClick={() => setMostrarMenu(!mostrarMenu)}>
+                    <MenuItemLink link to="/Contacto" className="btnContacto" onClick={() => setMostrarMenu(!mostrarMenu)}>
                         Contacto
                     </MenuItemLink>
                     </MenuItem>

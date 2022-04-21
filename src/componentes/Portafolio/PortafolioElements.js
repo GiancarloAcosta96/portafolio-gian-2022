@@ -6,6 +6,9 @@ export const ContenedorPortafolio = styled.div`
     max-width: 100%;
     height: max-content;
     padding: 5em;
+    @media (max-width:1000px){
+        padding: 2em;
+    }
 `
 
 export const ContenedorP = styled.div`
@@ -15,7 +18,7 @@ export const ContenedorP = styled.div`
     h2 {
         font-family: 'Roboto';
         font-size: 3.5em;
-        @media(max-width:800px){
+        @media(max-width:1000px){
             font-size: 2em;
             text-align: center;
         }

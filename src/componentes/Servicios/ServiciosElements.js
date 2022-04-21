@@ -18,12 +18,12 @@ export const Contenedor = styled.div`
     h2 {
         font-family: 'Roboto';
         font-size: 3.5em;
-        @media(max-width:800px){
+        @media(max-width:1000px){
             font-size: 2em;
             text-align: center;
         }
     }
-    @media (max-width:800px){
+    @media (max-width:1000px){
         width: 100%;
         max-width: 100%;
     }
@@ -73,6 +73,7 @@ export const Card = styled.div`
         font-weight: 300;
         @media(max-width:800px){
             font-size: 1.2em;
+            text-align: center;
         }
     }
 `   

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const LogoContainer = styled.div`
     font-family: 'Sora';
-    font-size: 1.2em;
+    font-size: 1em;
 `
 
 export const Container = styled.div`
@@ -30,7 +30,7 @@ export const Menu = styled.ul`
     display: flex;
     gap: 2em;
 
-    @media(max-width:960px) {
+    @media(max-width:980px) {
         background-color: #7A7A7A;
         position: absolute;
         top: 10vh;
@@ -52,12 +52,15 @@ export const MenuItem = styled.li`
         color: #FFF;       
         transition: all .3s;
         border: none;
+        @media(max-width:980px){
+            background-color: transparent;
+        }
         &:hover {
            background-color: #f6f6f6;
            color: #000;
         }
     }
-    @media(max-width:960px){
+    @media(max-width:980px){
         width: 100%;
         height: 5em;
         display: flex;
@@ -78,7 +81,7 @@ export const MenuItemLink = styled.a`
     &:hover {
         border-bottom: thin 1px #000;
     }
-    @media(max-width:960px) {
+    @media(max-width:980px) {
         width: 100%;
         height: 100%;
         color: #f6f6f6;
@@ -88,7 +91,7 @@ export const MenuItemLink = styled.a`
 
 export const IconoHamburguesa = styled.div`
     display: none;
-    @media(max-width:960px){
+    @media(max-width:980px){
         display: flex;
         align-items: center;
         cursor: pointer;

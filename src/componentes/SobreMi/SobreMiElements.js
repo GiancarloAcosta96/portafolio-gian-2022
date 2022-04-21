@@ -6,7 +6,7 @@ export const ContenedorPrincipal = styled.div`
     height: max-content;
     padding: 5em;
     @media(max-width:1000px){
-        padding: 2em;
+        padding: 1em;
     }
 `
 export const ContenedorSobreMi = styled.div`
